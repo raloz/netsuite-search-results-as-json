@@ -10,8 +10,7 @@ const __main__ = async () => {
     const $cell = document.createElement('td');
     const $button = document.createElement('button');
     $button.setAttribute('style', 'border: none; background:none; margin:0px; padding:0px;');
-    //TODO: replace the src url with a url from our repository after upload the code to github
-    $button.innerHTML = `<img class="uir-list-icon-button" src="https://icons.iconarchive.com/icons/papirus-team/papirus-mimetypes/512/app-json-icon.png" display:inline-block; margin:0px;">`;
+    $button.innerHTML = `<img class="uir-list-icon-button" src="https://raw.githubusercontent.com/raloz/netsuite-search-results-as-json/main/images/toJSON-128.png" display:inline-block; margin:0px;">`;
     $cell.append($button);
 
     $actionButtonsContainer.prepend($cell);
