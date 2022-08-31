@@ -6,7 +6,7 @@
     "permissions": [],
     "content_scripts": [{
         "js": ["src/index.js"],   
-        "matches": ["https://*.netsuite.com/app/common/search/searchresults.nl?searchid=*"]
+        "matches": ["https://*.netsuite.com/app/common/search/searchresults.nl?*searchid=*"]
     }],
     "icons": {
         "16": "/images/toJSON-16.png",
