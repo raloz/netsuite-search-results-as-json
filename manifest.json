@@ -1,7 +1,7 @@
 {
     "name": "Netsuite Search Results To JSON",
     "description": "Download a JSON file from a Netsuite Search from Saved Search",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "permissions": [],
     "content_scripts": [{
